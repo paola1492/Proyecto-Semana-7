@@ -63,7 +63,7 @@ li:first-letter {
 
 .weather-temperature .units {
   position: relative;
-  font-size: 16px;
+  font-size: 20px;
   top: -34px;
   color: #9e0059;
   font-weight: bolder;
