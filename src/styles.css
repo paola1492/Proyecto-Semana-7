@@ -58,19 +58,30 @@ li:first-letter {
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
+  font-weight: bolder;
 }
 
 .weather-temperature .units {
   position: relative;
   font-size: 16px;
   top: -34px;
+  color: #9e0059;
+  font-weight: bolder;
 }
 
 .weather-temperature .active {
-  color: rgb(33, 33, 33);
+  color: #9e0059;
   cursor: default;
+  size: 20px;
+  font-style: oblique;
+  font-weight: bolder;
 }
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast {
+  text-align: center;
+  color: #9e0059;
 }
